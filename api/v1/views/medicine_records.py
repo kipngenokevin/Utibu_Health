@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Objects that haldle all default RESTFul API actions for FoodItems
+Objects that haldle all default RESTFul API actions for MedicineItems
 """
 from models.medicine_records import Medicine
 from models import storage
