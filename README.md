@@ -37,7 +37,7 @@ Images Showing solution
 **Note** 
 * Due to the time constraints, this project will **not** focus on processing patient data, neither processing of orders. The solution is only to update the medication records available in the legacy database to the mobile app.
 * The goal of this project is to provide an endpoint API that can be called within the mobile app.
-* This project will be tested using locally available MySql database.
+* This project has been tested using locally available MySql database.
 
 ### Technologies Used
 Here is a list of the technologies used and how they are implemented
@@ -60,9 +60,10 @@ It has the following attributes:
 This is a class that inherits from the BaseModel class.
 
 It has the following attributes:
-* ___item_name___
-* ___item_category___
-* ___item_count___
+* `item_name`
+* `item_category`
+* ```item_description```
+* `item_count`
 
 ## Authors
 * [Kevin Kipngeno](https://www.linkedin.com/in/kipngenokevin254/)
