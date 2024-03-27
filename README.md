@@ -10,6 +10,7 @@ You are required to devise a solution that comprises a mobile app that allows a 
 The pharmacist wants to maintain the legacy database and system for face-to-face sales and have the online orders appear in that database as well. There is reliable internet in the health facility but it does not have a public IP address. You are free to use any approach, technology or tools so long as orders are eventually saved in the legacy database.
 
 ## Solution
+
 **Here is a short brief on the approach to the problem**:
 * Build an API that communicates between the mobile app and the Legacy Desktop App
 * The scope of this project will be to provide medication records to the mobile app
