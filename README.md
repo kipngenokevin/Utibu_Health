@@ -52,9 +52,9 @@ The solution API uses the following classes and methods to process inputs and ou
 This is the primary class that is inherited by all other classes.
 
 It has the following attributes:
-* ___id___ - primary key
-* ___created_at___
-* ___updated_at___
+* `id` - primary key
+* `created_at`
+* `updated_at`
 
 #### Medication-Records Class
 This is a class that inherits from the BaseModel class.
