@@ -15,16 +15,16 @@ The pharmacist wants to maintain the legacy database and system for face-to-face
 * The scope of this project will be to provide medication records to the mobile app
 
 **Note** 
-* Due to the time constraints, this project will not focus on processing patient data, neither processing of orders. The solution is only to update the medication records available in the legacy database to the mobile app.
+* Due to the time constraints, this project will **not** focus on processing patient data, neither processing of orders. The solution is only to update the medication records available in the legacy database to the mobile app.
 * The goal of this project is to provide an endpoint API that can be called within the mobile app.
 * This project will be tested using locally available MySql database.
 
 ### Technologies Used
 Here is a list of the technologies used and how they are implemented
-* *Python - Primary language*
-* *Flask - Web FrameWork*
-* *SqlAlchemy - ORM*
-* *JSON*
+* **Python** - *Primary language*
+* **Flask** - Web FrameWork*
+* **SqlAlchemy** - *ORM*
+* **JSON**
 
 ### Project Design
 The solution API uses the following classes and methods to process inputs and outputs.
@@ -32,17 +32,17 @@ The solution API uses the following classes and methods to process inputs and ou
 This is the primary class that is inherited by all other classes.
 
 It has the following attributes:
-* id - primary key
-* created_at
-* updated_at
+* ___id___ - primary key
+* ___created_at___
+* ___updated_at___
 
 #### Medication-Records Class
 This is a class that inherits from the BaseModel class.
 
 It has the following attributes:
-* item_name
-* item_category
-* item_count
+* ___item_name___
+* ___item_category___
+* ___item_count___
 
 ## Authors
 * [Kevin Kipngeno](https://www.linkedin.com/in/kipngenokevin254/)
