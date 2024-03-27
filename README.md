@@ -10,6 +10,22 @@ You are required to devise a solution that comprises a mobile app that allows a 
 The pharmacist wants to maintain the legacy database and system for face-to-face sales and have the online orders appear in that database as well. There is reliable internet in the health facility but it does not have a public IP address. You are free to use any approach, technology or tools so long as orders are eventually saved in the legacy database.
 
 ## Solution
+Images Showing solution
+**Running the console**
+![Running the console locally](https://github.com/kipngenokevin/Utibu_Health/blob/master/images/Screenshot%202024-03-27%20at%2011.24.17.png)
+
+
+**Running the API**
+![Running the API](https://github.com/kipngenokevin/Utibu_Health/blob/master/images/Screenshot%202024-03-27%20at%2011.33.13.png)
+
+
+**Status of the API**
+![Status of API](https://github.com/kipngenokevin/Utibu_Health/blob/master/images/Screenshot%202024-03-27%20at%2011.33.26.png)
+
+
+**Testing Records from the API**
+![Records from API](https://github.com/kipngenokevin/Utibu_Health/blob/master/images/Screenshot%202024-03-27%20at%2011.33.56.png)
+
 
 **Here is a short brief on the approach to the problem**:
 * Build an API that communicates between the mobile app and the Legacy Desktop App
