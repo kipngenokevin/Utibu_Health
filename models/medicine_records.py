@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This is a class for the food items that
+This is a class for the medicine items that
 will be passed and retrived from storage
 """
 from models.base_model import BaseModel
@@ -11,7 +11,7 @@ import models
 
 class Medicine(BaseModel, Base):
     """
-    This class defines food items with various attributes
+    This class defines medicine items with various attributes
     """
     __tablename__ = 'Medicine_Records'
 
